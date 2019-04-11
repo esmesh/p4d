@@ -1,0 +1,45 @@
+html, body {
+  overflow: hidden;
+  margin: 0;
+  background-color: black;
+  font-size = 20px;
+}	
+
+#canvas {
+  width: 92.5vw;
+  height: 100vh;
+  display: float;
+}
+
+p
+{
+  color : white;
+  font-size : 20px;
+  padding : 0;
+  line-height : 0.01em;
+}
+
+#Controls{
+  float : right;
+  
+}
+
+.Control{
+  color : #FFFFFF;
+  text-decoration: none;
+  font-size: 20px;
+  
+  flex-basis: 100%;
+    transition: 0.25s;
+    transition-timing-function: linear;
+    
+    color: #E0E8F0;
+    padding: 4px;
+    text-align: center;
+    line-height : 1.5;
+}
+
+form
+{
+  color : white;
+}
