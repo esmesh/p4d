@@ -1,0 +1,45 @@
+<html>
+
+<head>
+  <title>Computational Aesthetics</title>
+  <link rel="stylesheet" type="text/css" href="project.css">
+</head>
+
+<body>
+  <canvas id="canvas"></canvas>
+  <div id="Controls">
+  <a class="Control" id="start" href="#">Start</a>
+  <br><a class="Control" id="stop" href="#">Stop</a>
+  <br><a class="Control" id="next" href="#">Next</a>
+  <br><a class="Control" id="random" href="#">Random</a>
+  <br><a class="Control"id="clear" href="#">Clear</a>
+  <p><input type="checkbox" id="Cyclical" value="Cyclical" checked>
+  Cyclical?</p>
+  <p><input type="checkbox" id="Single" value="Single" unchecked>
+  Spawn Single</p>
+  
+   <p> Rule Style</p>
+  <form action="" id="rule">
+    <input type="radio" name="rule" value="life" checked>Life</input><br>
+    <input type="radio" name="rule" value="circuit">Circuit</input><br>
+    <input type="radio" name="rule" value="coral">Coral</input><br>
+    <input type="radio" name="rule" value="mosaic">Mosaic</input><br>
+    <input type="radio" name="rule" value="mosaicAlt">Mosaic Alt</input><br>
+    <input type="radio" name="rule" value="stars">Mosaic Stars</input><br>
+    <input type="radio" name="rule" value="blotter">Blotter Art</input><br>
+    <input type="radio" name="rule" value="city">City</input><br>
+    <input type="radio" name="rule" value="growth">Growing Static</input><br>
+</form>
+
+
+    <p>Spawn Chance</p>
+  <input type="text" id="spawnChance" value=".3"style="width: 40px"> 
+  
+    <p>Spawn Size</p>
+  <input type="text" id="spawnSize" value="3"style="width: 40px"> 
+    </div>
+  
+  <script src="app.js"></script>
+</body>
+
+</html>
