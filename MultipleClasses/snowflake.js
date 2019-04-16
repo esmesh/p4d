@@ -29,7 +29,7 @@ class Snowflake
     {
         push();
         angleMode(DEGREES);
-        stroke(255, 255, 255, 75);
+        stroke(255, 255, 255, 150);
         
         translate(this.x, this.y);
         rotate(this.rotation);
