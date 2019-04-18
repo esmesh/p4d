@@ -44,32 +44,32 @@ function target(x, y, ringWidth) {
   var light = 255;
   var dark = 0;
   
-  // Draw the rings using overlapping circles starting
+  // Draw the rings using overlapping rings starting
   // with 9* the ringwidth and working down
-  circle(0, 0, dark, ringWidth*9);
-  circle(0, 0, light, ringWidth*8);
-  circle(0, 0, dark, ringWidth*7);
-  circle(0, 0, light, ringWidth*6);
-  circle(0, 0, dark, ringWidth*5);
-  circle(0, 0, light, ringWidth*4);
-  circle(0, 0, dark, ringWidth*3);
-  circle(0, 0, light, ringWidth*2);
-  circle(0, 0, dark, ringWidth*1);
+  ring(0, 0, dark, ringWidth*9);
+  ring(0, 0, light, ringWidth*8);
+  ring(0, 0, dark, ringWidth*7);
+  ring(0, 0, light, ringWidth*6);
+  ring(0, 0, dark, ringWidth*5);
+  ring(0, 0, light, ringWidth*4);
+  ring(0, 0, dark, ringWidth*3);
+  ring(0, 0, light, ringWidth*2);
+  ring(0, 0, dark, ringWidth*1);
   
   // Undo the translate
   pop();
 }
 
-// Draw a circle at the given x, y
+// Draw a ring at the given x, y
 // coordinates, filled with the given
 // gray scale value, and with the given size
-function circle(x, y, gray, size) {
+function ring(x, y, gray, size) {
   
   // Set the fill
 	push();
   fill(gray);
   
-  // Draw the circle
+  // Draw the ring
   ellipse(x, y, size);
   
   // Undo the fill

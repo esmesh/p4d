@@ -8,7 +8,10 @@ class Snowflake
         this.y = random(height);
         this.size = random(10,20);
         this.speed = random(1,3);
-        this.flakeColor = color(random(255), random(255), random(255));
+        
+        this.flakeColor = color(255, 255, 255, random(50, 100));
+        
+        //this.flakeColor = color(random(255), random(255), random(255), random(100));
     }
 
     move()

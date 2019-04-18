@@ -12,7 +12,7 @@ function setup() {
 }
 
 function draw() {
-  background(220);
+  background(0);
   
     for(var i=0; i<numSnowflakes; i++)
     {
